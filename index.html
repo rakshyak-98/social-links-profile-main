@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- font family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+      --clr-green: hsl(75, 94%, 57%);
+      --clr-dark: hsl(0, 0%, 8%);
+      --clr-gray: hsl(0, 0%, 20%);
+      --clr-gray--dark: hsl(0, 0%, 12%);
+      --font-family: Inter;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      visibility: hidden;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: var(--clr-dark);
+      display: grid;
+      place-content: center;
+      height: 100vh;
+    }
+
+    aside {
+      font-family: var(--font-family);
+      color: white;
+      align-items: center;
+      background-color: var(--clr-gray--dark);
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    aside>img {
+      border-radius: 100%;
+      width: 98px;
+      margin-bottom: 20px;
+    }
+
+    aside>h2 {
+      margin-bottom: 8px;
+    }
+
+    aside>p:first-of-type {
+      color: var(--clr-green);
+      margin-bottom: 30px;
+    }
+
+    aside>p:first-of-type+p {
+      margin-bottom: 20px;
+    }
+
+    aside a {
+      text-decoration: none;
+      color: inherit;
+      background-color: var(--clr-gray);
+      text-transform: capitalize;
+      align-self: stretch;
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 8px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <aside>
+    <img src="./assets/images/avatar-jessica.jpeg" alt="profile-image">
+    <h2>Jessica Randall</h2>
+    <p>London, United Kingdom</p>
+    <p>"Front-end developer and avid reader."</p>
+    <a href="">GitHub</a>
+    <a href="">Frontend Mentor</a>
+    <a href="">LinkedIn</a>
+    <a href="">Twitter</a>
+    <a href="">Instagram</a>
+  </aside>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
